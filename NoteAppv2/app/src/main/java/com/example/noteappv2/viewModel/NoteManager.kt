@@ -42,9 +42,9 @@ object NoteManager {
     fun getAllNotes(): List<Note> = notes
 
 
-    fun getAllNotesSorted(): List<Note> {
-        return notes.sortedByDescending { it.timestamp }
-    }
+//    fun getAllNotesSorted(): List<Note> {
+//        /** TO DO **/
+//    }
 
 
     // Sample data for demonstration purposes
